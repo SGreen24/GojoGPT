@@ -40,6 +40,7 @@ import {
     const result = await chatSession.sendMessage(prompt);
     const response = result.response;
     console.log(response.text());
+    return response.text(); /* this will return our response text */
   }
   
   export default run;
