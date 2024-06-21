@@ -22,24 +22,24 @@ const Main = () => {
             {!showResult
             ?<>
              <div className="greet">
-                <p><span>Hi Silas!</span></p>
-                <p>How can I help you today?</p>
+                <p><span>To the Strongest User of Today...</span></p>
+                <p>How may i assist you?</p>
             </div>
             <div className="cards">
                 <div className="card">
-                    <p>Suggesting Nice Places to Go!</p>
+                    <p>Learn More about Jujutsu Kaisen!</p>
                     <img src={assets.compass_icon} alt="" />
                 </div>
                 <div className="card">
-                    <p>Summararize This Concept!</p>
+                    <p>Whos Stronger: Gojo or Sukuna?!</p>
                     <img src={assets.bulb_icon} alt="" />
                 </div>
                 <div className="card">
-                    <p>Discover Team Bonding Activities!</p>
+                    <p>Best Anime of 2024!</p>
                     <img src={assets.message_icon} alt="" />
                 </div>
                 <div className="card">
-                    <p>Improve Coding Readablility!</p>
+                    <p>Learn More about React!</p>
                     <img src={assets.code_icon} alt="" />
                 </div>
             </div>
